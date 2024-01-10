@@ -1,4 +1,4 @@
-# graphics-driver
+# Graphics-Driver
 A graphics driver made by an idiot for an idiot.
 # Core features
 Take a strictly defined 4d shape and put it on a 2d screen.

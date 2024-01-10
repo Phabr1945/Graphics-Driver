@@ -140,6 +140,46 @@ def _vertex8_():
     p2 = int(hypercube["y8"])/int(hypercube["w8"])
     p3 = int(hypercube["z8"])/int(hypercube["w8"])
     _vertex8_.pts = [p1,p2,p3]
+#def _vertex9_():
+#    p1 = int(hypercube["x9"])/int(hypercube["w9"])
+#    p2 = int(hypercube["y9"])/int(hypercube["w9"])
+#    p3 = int(hypercube["z9"])/int(hypercube["w9"])
+#    _vertex9_.pts = [p1,p2,p3]
+#def _vertex10_():
+#    p1 = int(hypercube["x10"])/int(hypercube["w10"])
+#    p2 = int(hypercube["y10"])/int(hypercube["w10"])
+#    p3 = int(hypercube["z10"])/int(hypercube["w10"])
+#    _vertex10_.pts = [p1,p2,p3]
+#def _vertex11_():
+#    p1 = int(hypercube["x11"])/int(hypercube["w11"])
+#    p2 = int(hypercube["y11"])/int(hypercube["w11"])
+#    p3 = int(hypercube["z11"])/int(hypercube["w11"])
+#    _vertex11_.pts = [p1,p2,p3]
+#def _vertex12_():
+#    p1 = int(hypercube["x12"])/int(hypercube["w12"])
+#    p2 = int(hypercube["y12"])/int(hypercube["w12"])
+#    p3 = int(hypercube["z12"])/int(hypercube["w12"])
+#    _vertex12_.pts = [p1,p2,p3]
+#def _vertex13_():
+#    p1 = int(hypercube["x13"])/int(hypercube["w13"])
+#    p2 = int(hypercube["y13"])/int(hypercube["w13"])
+#    p3 = int(hypercube["z13"])/int(hypercube["w13"])
+#    _vertex13_.pts = [p1,p2,p3]
+#def _vertex14_():
+#    p1 = int(hypercube["x14"])/int(hypercube["w14"])
+#    p2 = int(hypercube["y14"])/int(hypercube["w14"])
+#    p3 = int(hypercube["z14"])/int(hypercube["w14"])
+#    _vertex14_.pts = [p1,p2,p3]
+#def _vertex15_():
+#    p1 = int(hypercube["x15"])/int(hypercube["w15"])
+#    p2 = int(hypercube["y15"])/int(hypercube["w15"])
+#    p3 = int(hypercube["z15"])/int(hypercube["w15"])
+#    _vertex15_.pts = [p1,p2,p3]
+#def _vertex16_():
+#    p1 = int(hypercube["x16"])/int(hypercube["w16"])
+#    p2 = int(hypercube["y16"])/int(hypercube["w16"])
+#    p3 = int(hypercube["z16"])/int(hypercube["w16"])
+#    _vertex16_.pts = [p1,p2,p3]
 _vertex1_()
 _vertex2_()
 _vertex3_()
@@ -148,9 +188,17 @@ _vertex5_()
 _vertex6_()
 _vertex7_()
 _vertex8_()
+#_vertex9_()
+#_vertex10_()
+#_vertex11_()
+#_vertex12_()
+#_vertex13_()
+#_vertex14_()
+#_vertex15_()
+#_vertex16_()
 def _3d_():         # 4 3D points per print function to make it look complicated
     print("3D point 1",_vertex1_.pts,"\n","3D point 2",_vertex2_.pts,"\n","3D point 3",_vertex3_.pts,"\n","3D point 4",_vertex4_.pts)
     print("3D point 5",_vertex5_.pts,"\n","3D point 6",_vertex6_.pts,"\n","3D point 7",_vertex7_.pts,"\n","3D point 8",_vertex8_.pts)
-#    print()
-#    print()
+#    print("3D point 9",_vertex9_.pts,"\n","3D point 10",_vertex10_.pts,"\n","3D point 11",_vertex11_.pts,"\n","3D point 12",_vertex12_.pts)
+#    print("3D point 13",_vertex13_.pts,"\n","3D point 14",_vertex14_.pts,"\n","3D point 15",_vertex15_.pts,"\n","3D point 16",_vertex16_.pts)
 _3d_()
