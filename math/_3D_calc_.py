@@ -10,3 +10,27 @@
 #    but WITHOUT ANY WARRANTY; without even the implied warranty of
 #    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 #    GNU Affero General Public License for more details.
+# TODO: change 3D to 2D and display on a graph using turtle
+# Use https://www.geeksforgeeks.org/python-get-first-and-last-elements-of-a-list/
+from _4D_to_3D_ import _3d_
+from turtle import *
+
+_3d_()
+
+def _3D_to_2D_():
+    def _3D_vertex1_():
+        x1 = [_3d_.dat1[0]]
+        for i in range(0, len(x1)):
+            x1[i] = float(x1[i])
+        y1 = [_3d_.dat1[1]]
+        for i in range(1, len(y1)):
+            y1[i] = float(y1[i])
+        z1 = [_3d_.dat1[2]]
+        for i in range(2, len(z1)):
+            z1[i] = float(z1[i])
+        print(x1)
+        x = x1/z1
+        y = y1/z1
+        print(x,y)
+    _3D_vertex1_()
+_3D_to_2D_()
