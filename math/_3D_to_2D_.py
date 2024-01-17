@@ -13,7 +13,6 @@
 # TODO: change 3D to 2D and display on a graph using turtle
 # Use https://www.geeksforgeeks.org/python-get-first-and-last-elements-of-a-list/
 from _4D_to_3D_ import _3d_
-from turtle import *
 
 _3d_()
 
