@@ -202,7 +202,6 @@ print( "\n","3D point 1",_vertex1_.pts,"\n","3D point 2",_vertex2_.pts,"\n","3D 
 #"\n","3D point 13",_vertex13_.pts,"\n","3D point 14",_vertex14_.pts,"\n","3D point 15",_vertex15_.pts,"\n","3D point 16",_vertex16_.pts
     )
 def _3d_():         # 4 3D points per line to make it look complicated
-    _3d_.tot = [_vertex1_.pts,_vertex2_.pts,_vertex3_.pts,_vertex4_.pts,_vertex5_.pts,_vertex6_.pts,_vertex7_.pts,_vertex8_.pts]
     _3d_.dat1 = _vertex1_.pts
     _3d_.dat2 = _vertex2_.pts
     _3d_.dat3 = _vertex3_.pts
