@@ -49,47 +49,47 @@ hypercube = {
     "x8": -1,
     "y8": -1,
     "z8": -1,
-    "w8": 1
+    "w8": 1,
 
-#    "x9" : ,
-#    "y9" : ,
-#    "z9" : ,
-#    "w9" : ,
-#
-#    "x10" : ,
-#    "y10" : ,
-#    "z10" : ,
-#    "w10" : ,
-#
-#    "x11" : ,
-#    "y11" : ,
-#    "z11" : ,
-#    "w11" : ,
-#
-#    "x12" : ,
-#    "y12" : ,
-#    "z12" : ,
-#    "w12" : ,
-#
-#    "x13" : ,
-#    "y13" : ,
-#    "z13" : ,
-#    "w13" : ,
-#
-#    "x14" : ,
-#    "y14" : ,
-#    "z14" : ,
-#    "w14" : ,
-#
-#    "x15" : ,
-#    "y15" : ,
-#    "z15" : ,
-#    "w15" : ,
-#
-#    "x16" : ,
-#    "y16" : ,
-#    "z16" : ,
-#    "w16" : ,
+    "x9": 1,
+    "y9": 1,
+    "z9": 1,
+    "w9": -1,
+
+    "x10": 1,
+    "y10": -1,
+    "z10": 1,
+    "w10": -1,
+
+    "x11": -1,
+    "y11": 1,
+    "z11": 1,
+    "w11": -1,
+
+    "x12": -1,
+    "y12": -1,
+    "z12": 1,
+    "w12": -1,
+
+    "x13": 1,
+    "y13": 1,
+    "z13": -1,
+    "w13": -1,
+
+    "x14": 1,
+    "y14": -1,
+    "z14": -1,
+    "w14": -1,
+
+    "x15": -1,
+    "y15": 1,
+    "z15": -1,
+    "w15": -1,
+
+    "x16": -1,
+    "y16": -1,
+    "z16": -1,
+    "w16": -1
 }
 print("List of 4D points:", hypercube)
 # converting 4d to 3d is the same as converting
@@ -140,46 +140,46 @@ def _vertex8_():
     y = float(hypercube["y8"])/float(hypercube["w8"])
     z = float(hypercube["z8"])/float(hypercube["w8"])
     _vertex8_.pts = {"p1":x,"p2":y,"p3":z}
-#def _vertex9_():
-#    x = float(hypercube["x9"])/float(hypercube["w9"])
-#    y = float(hypercube["y9"])/float(hypercube["w9"])
-#    z = float(hypercube["z9"])/float(hypercube["w9"])
-#    _vertex9_.pts = {"p1":x,"p2":y,"p3":z}
-#def _vertex10_():
-#    x = float(hypercube["x10"])/float(hypercube["w10"])
-#    y = float(hypercube["y10"])/float(hypercube["w10"])
-#    z = float(hypercube["z10"])/float(hypercube["w10"])
-#    _vertex10_.pts = {"p1":x,"p2":y,"p3":z}
-#def _vertex11_():
-#    x = float(hypercube["x11"])/float(hypercube["w11"])
-#    y = float(hypercube["y11"])/float(hypercube["w11"])
-#    z = float(hypercube["z11"])/float(hypercube["w11"])
-#    _vertex11_.pts = {"p1":x,"p2":y,"p3":z}
-#def _vertex12_():
-#    x = float(hypercube["x12"])/float(hypercube["w12"])
-#    y = float(hypercube["y12"])/float(hypercube["w12"])
-#    z = float(hypercube["z12"])/float(hypercube["w12"])
-#    _vertex12_.pts = {"p1":x,"p2":y,"p3":z}
-#def _vertex13_():
-#    x = float(hypercube["x13"])/float(hypercube["w13"])
-#    y = float(hypercube["y13"])/float(hypercube["w13"])
-#    z = float(hypercube["z13"])/float(hypercube["w13"])
-#    _vertex13_.pts = {"p1":x,"p2":y,"p3":z}
-#def _vertex14_():
-#    x = float(hypercube["x14"])/float(hypercube["w14"])
-#    y = float(hypercube["y14"])/float(hypercube["w14"])
-#    z = float(hypercube["z14"])/float(hypercube["w14"])
-#    _vertex14_.pts = {"p1":x,"p2":y,"p3":z}
-#def _vertex15_():
-#    x = float(hypercube["x15"])/float(hypercube["w15"])
-#    y = float(hypercube["y15"])/float(hypercube["w15"])
-#    z = float(hypercube["z15"])/float(hypercube["w15"])
-#    _vertex15_.pts = {"p1":x,"p2":y,"p3":z}
-#def _vertex16_():
-#    x = float(hypercube["x16"])/float(hypercube["w16"])
-#    y = float(hypercube["y16"])/float(hypercube["w16"])
-#    z = float(hypercube["z16"])/float(hypercube["w16"])
-#    _vertex16_.pts = {"p1":x,"p2":y,"p3":z}
+def _vertex9_():
+    x = float(hypercube["x9"])/float(hypercube["w9"])
+    y = float(hypercube["y9"])/float(hypercube["w9"])
+    z = float(hypercube["z9"])/float(hypercube["w9"])
+    _vertex9_.pts = {"p1":x,"p2":y,"p3":z}
+def _vertex10_():
+    x = float(hypercube["x10"])/float(hypercube["w10"])
+    y = float(hypercube["y10"])/float(hypercube["w10"])
+    z = float(hypercube["z10"])/float(hypercube["w10"])
+    _vertex10_.pts = {"p1":x,"p2":y,"p3":z}
+def _vertex11_():
+    x = float(hypercube["x11"])/float(hypercube["w11"])
+    y = float(hypercube["y11"])/float(hypercube["w11"])
+    z = float(hypercube["z11"])/float(hypercube["w11"])
+    _vertex11_.pts = {"p1":x,"p2":y,"p3":z}
+def _vertex12_():
+    x = float(hypercube["x12"])/float(hypercube["w12"])
+    y = float(hypercube["y12"])/float(hypercube["w12"])
+    z = float(hypercube["z12"])/float(hypercube["w12"])
+    _vertex12_.pts = {"p1":x,"p2":y,"p3":z}
+def _vertex13_():
+    x = float(hypercube["x13"])/float(hypercube["w13"])
+    y = float(hypercube["y13"])/float(hypercube["w13"])
+    z = float(hypercube["z13"])/float(hypercube["w13"])
+    _vertex13_.pts = {"p1":x,"p2":y,"p3":z}
+def _vertex14_():
+    x = float(hypercube["x14"])/float(hypercube["w14"])
+    y = float(hypercube["y14"])/float(hypercube["w14"])
+    z = float(hypercube["z14"])/float(hypercube["w14"])
+    _vertex14_.pts = {"p1":x,"p2":y,"p3":z}
+def _vertex15_():
+    x = float(hypercube["x15"])/float(hypercube["w15"])
+    y = float(hypercube["y15"])/float(hypercube["w15"])
+    z = float(hypercube["z15"])/float(hypercube["w15"])
+    _vertex15_.pts = {"p1":x,"p2":y,"p3":z}
+def _vertex16_():
+    x = float(hypercube["x16"])/float(hypercube["w16"])
+    y = float(hypercube["y16"])/float(hypercube["w16"])
+    z = float(hypercube["z16"])/float(hypercube["w16"])
+    _vertex16_.pts = {"p1":x,"p2":y,"p3":z}
 _vertex1_()
 _vertex2_()
 _vertex3_()
@@ -188,18 +188,18 @@ _vertex5_()
 _vertex6_()
 _vertex7_()
 _vertex8_()
-#_vertex9_()
-#_vertex10_()
-#_vertex11_()
-#_vertex12_()
-#_vertex13_()
-#_vertex14_()
-#_vertex15_()
-#_vertex16_()
+_vertex9_()
+_vertex10_()
+_vertex11_()
+_vertex12_()
+_vertex13_()
+_vertex14_()
+_vertex15_()
+_vertex16_()
 print( "\n","3D point 1",_vertex1_.pts,"\n","3D point 2",_vertex2_.pts,"\n","3D point 3",_vertex3_.pts,"\n","3D point 4",_vertex4_.pts,
        "\n","3D point 5",_vertex5_.pts,"\n","3D point 6",_vertex6_.pts,"\n","3D point 7",_vertex7_.pts,"\n","3D point 8",_vertex8_.pts,
-# "\n","3D point 9",_vertex9_.pts,"\n","3D point 10",_vertex10_.pts,"\n","3D point 11",_vertex11_.pts,"\n","3D point 12",_vertex12_.pts,
-#"\n","3D point 13",_vertex13_.pts,"\n","3D point 14",_vertex14_.pts,"\n","3D point 15",_vertex15_.pts,"\n","3D point 16",_vertex16_.pts
+ "\n","3D point 9",_vertex9_.pts,"\n","3D point 10",_vertex10_.pts,"\n","3D point 11",_vertex11_.pts,"\n","3D point 12",_vertex12_.pts,
+"\n","3D point 13",_vertex13_.pts,"\n","3D point 14",_vertex14_.pts,"\n","3D point 15",_vertex15_.pts,"\n","3D point 16",_vertex16_.pts
     )
 def _3d_():         # 4 3D points per line to make it look complicated
     _3d_.dat1 = _vertex1_.pts
@@ -210,11 +210,11 @@ def _3d_():         # 4 3D points per line to make it look complicated
     _3d_.dat6 = _vertex6_.pts
     _3d_.dat7 = _vertex7_.pts
     _3d_.dat8 = _vertex8_.pts
-#    _3d_.dat9 = _vertex9_.pts
-#    _3d_.dat10 = _vertex10_.pts
-#    _3d_.dat11 = _vertex11_.pts
-#    _3d_.dat12 = _vertex12_.pts
-#    _3d_.dat13 = _vertex13_.pts
-#    _3d_.dat14 = _vertex14_.pts
-#    _3d_.dat15 = _vertex15_.pts
-#    _3d_.dat16 = _vertex16_.pts
+    _3d_.dat9 = _vertex9_.pts
+    _3d_.dat10 = _vertex10_.pts
+    _3d_.dat11 = _vertex11_.pts
+    _3d_.dat12 = _vertex12_.pts
+    _3d_.dat13 = _vertex13_.pts
+    _3d_.dat14 = _vertex14_.pts
+    _3d_.dat15 = _vertex15_.pts
+    _3d_.dat16 = _vertex16_.pts
