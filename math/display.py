@@ -277,4 +277,5 @@ def _tot_disp_():
     print()
     _disp_startup_()
     _display_with_turtle_()
+    time.sleep(5)
 _tot_disp_()
