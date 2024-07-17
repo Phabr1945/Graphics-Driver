@@ -11,6 +11,7 @@
 #    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 #    GNU Affero General Public License for more details.
 from turtle import *
+#import turtle as t
 from _3D_to_2D_ import _2d_
 import time
 _2d_()
@@ -35,16 +36,7 @@ def _display_with_turtle_():
     def _point1_():
         x = 10 * float(_2d_.dat1["x1"])
         y = 10 * float(_2d_.dat1["y1"])
-        up()
-        left(90)
-        forward(x)
-        right(90)
-        forward(y)
-        down()
-        _plus_()
-        up()
-        home()
-        left(90)
+        Turtle().goto(x,y)
     def _point2_():
         x = 10 * float(_2d_.dat2["x1"])
         y = 10 * float(_2d_.dat2["y1"])

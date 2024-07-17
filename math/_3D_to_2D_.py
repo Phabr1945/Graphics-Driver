@@ -17,68 +17,68 @@ from _4D_to_3D_ import _3d_
 _3d_()
 
 def _vertex1_():                                     # refer to /math/_4D_to_3D functions or the main readme for explaination
-    x = float(_3d_.dat1["p1"])/float(_3d_.dat1["p3"])
-    y = float(_3d_.dat1["p2"])/float(_3d_.dat1["p3"])
+    x = float(_3d_.dat1["p1"])/float(_3d_.dat1["p3"]) if float(_3d_.dat1["p3"]) else float(_3d_.dat1["p1"])
+    y = float(_3d_.dat1["p2"])/float(_3d_.dat1["p3"]) if float(_3d_.dat1["p3"]) else float(_3d_.dat1["p2"])
     _vertex1_.pts = {"x1":x,"y1":y,}
 def _vertex2_():
-    x = float(_3d_.dat2["p1"])/float(_3d_.dat2["p3"])
-    y = float(_3d_.dat2["p2"])/float(_3d_.dat2["p3"])
+    x = float(_3d_.dat2["p1"])/float(_3d_.dat2["p3"]) if float(_3d_.dat2["p3"]) else float(_3d_.dat2["p1"])
+    y = float(_3d_.dat2["p2"])/float(_3d_.dat2["p3"]) if float(_3d_.dat2["p3"]) else float(_3d_.dat2["p2"])
     _vertex2_.pts = {"x1":x,"y1":y,}
 def _vertex3_():
-    x = float(_3d_.dat3["p1"])/float(_3d_.dat3["p3"])
-    y = float(_3d_.dat3["p2"])/float(_3d_.dat3["p3"])
+    x = float(_3d_.dat3["p1"])/float(_3d_.dat3["p3"]) if float(_3d_.dat3["p3"]) else float(_3d_.dat3["p1"])
+    y = float(_3d_.dat3["p2"])/float(_3d_.dat3["p3"]) if float(_3d_.dat3["p3"]) else float(_3d_.dat3["p2"])
     _vertex3_.pts = {"x1":x,"y1":y,}
 def _vertex4_():
-    x = float(_3d_.dat4["p1"])/float(_3d_.dat4["p3"])
-    y = float(_3d_.dat4["p2"])/float(_3d_.dat4["p3"])
+    x = float(_3d_.dat4["p1"])/float(_3d_.dat4["p3"]) if float(_3d_.dat4["p3"]) else float(_3d_.dat4["p1"])
+    y = float(_3d_.dat4["p2"])/float(_3d_.dat4["p3"]) if float(_3d_.dat4["p3"]) else float(_3d_.dat4["p2"])
     _vertex4_.pts = {"x1":x,"y1":y,}
 def _vertex5_():
-    x = float(_3d_.dat5["p1"])/float(_3d_.dat5["p3"])
-    y = float(_3d_.dat5["p2"])/float(_3d_.dat5["p3"])
+    x = float(_3d_.dat5["p1"])/float(_3d_.dat5["p3"]) if float(_3d_.dat5["p3"]) else float(_3d_.dat5["p1"])
+    y = float(_3d_.dat5["p2"])/float(_3d_.dat5["p3"]) if float(_3d_.dat5["p3"]) else float(_3d_.dat5["p2"])
     _vertex5_.pts = {"x1":x,"y1":y,}
 def _vertex6_():
-    x = float(_3d_.dat6["p1"])/float(_3d_.dat6["p3"])
-    y = float(_3d_.dat6["p2"])/float(_3d_.dat6["p3"])
+    x = float(_3d_.dat6["p1"])/float(_3d_.dat6["p3"]) if float(_3d_.dat6["p3"]) else float(_3d_.dat6["p1"])
+    y = float(_3d_.dat6["p2"])/float(_3d_.dat6["p3"]) if float(_3d_.dat6["p3"]) else float(_3d_.dat6["p2"])
     _vertex6_.pts = {"x1":x,"y1":y,}
 def _vertex7_():
-    x = float(_3d_.dat7["p1"])/float(_3d_.dat7["p3"])
-    y = float(_3d_.dat7["p2"])/float(_3d_.dat7["p3"])
+    x = float(_3d_.dat7["p1"])/float(_3d_.dat7["p3"]) if float(_3d_.dat7["p3"]) else float(_3d_.dat7["p1"])
+    y = float(_3d_.dat7["p2"])/float(_3d_.dat7["p3"]) if float(_3d_.dat7["p3"]) else float(_3d_.dat7["p2"])
     _vertex7_.pts = {"x1":x,"y1":y,}
 def _vertex8_():
-    x = float(_3d_.dat8["p1"])/float(_3d_.dat8["p3"])
-    y = float(_3d_.dat8["p2"])/float(_3d_.dat8["p3"])
+    x = float(_3d_.dat8["p1"])/float(_3d_.dat8["p3"]) if float(_3d_.dat8["p3"]) else float(_3d_.dat8["p1"])
+    y = float(_3d_.dat8["p2"])/float(_3d_.dat8["p3"]) if float(_3d_.dat8["p3"]) else float(_3d_.dat8["p2"])
     _vertex8_.pts = {"x1":x,"y1":y,}
 def _vertex9_():
-    x = float(_3d_.dat9["p1"])/float(_3d_.dat9["p3"])
-    y = float(_3d_.dat9["p2"])/float(_3d_.dat9["p3"])
+    x = float(_3d_.dat9["p1"])/float(_3d_.dat9["p3"]) if float(_3d_.dat9["p3"]) else float(_3d_.dat9["p1"])
+    y = float(_3d_.dat9["p2"])/float(_3d_.dat9["p3"]) if float(_3d_.dat9["p3"]) else float(_3d_.dat9["p2"])
     _vertex9_.pts = {"x1":x,"y1":y,}
 def _vertex10_():
-    x = float(_3d_.dat10["p1"])/float(_3d_.dat10["p3"])
-    y = float(_3d_.dat10["p2"])/float(_3d_.dat10["p3"])
+    x = float(_3d_.dat10["p1"])/float(_3d_.dat10["p3"]) if float(_3d_.dat10["p3"]) else float(_3d_.dat10["p1"])
+    y = float(_3d_.dat10["p2"])/float(_3d_.dat10["p3"]) if float(_3d_.dat10["p3"]) else float(_3d_.dat10["p2"])
     _vertex10_.pts = {"x1":x,"y1":y,}
 def _vertex11_():
-    x = float(_3d_.dat11["p1"])/float(_3d_.dat11["p3"])
-    y = float(_3d_.dat11["p2"])/float(_3d_.dat11["p3"])
+    x = float(_3d_.dat11["p1"])/float(_3d_.dat11["p3"]) if float(_3d_.dat11["p3"]) else float(_3d_.dat11["p1"])
+    y = float(_3d_.dat11["p2"])/float(_3d_.dat11["p3"]) if float(_3d_.dat11["p3"]) else float(_3d_.dat11["p2"])
     _vertex11_.pts = {"x1":x,"y1":y,}
 def _vertex12_():
-    x = float(_3d_.dat12["p1"])/float(_3d_.dat12["p3"])
-    y = float(_3d_.dat12["p2"])/float(_3d_.dat12["p3"])
+    x = float(_3d_.dat12["p1"])/float(_3d_.dat12["p3"]) if float(_3d_.dat12["p3"]) else float(_3d_.dat12["p1"])
+    y = float(_3d_.dat12["p2"])/float(_3d_.dat12["p3"]) if float(_3d_.dat12["p3"]) else float(_3d_.dat12["p2"])
     _vertex12_.pts = {"x1":x,"y1":y,}
 def _vertex13_():
-    x = float(_3d_.dat13["p1"])/float(_3d_.dat13["p3"])
-    y = float(_3d_.dat13["p2"])/float(_3d_.dat13["p3"])
+    x = float(_3d_.dat13["p1"])/float(_3d_.dat13["p3"]) if float(_3d_.dat13["p3"]) else float(_3d_.dat13["p1"])
+    y = float(_3d_.dat13["p2"])/float(_3d_.dat13["p3"]) if float(_3d_.dat13["p3"]) else float(_3d_.dat13["p2"])
     _vertex13_.pts = {"x1":x,"y1":y,}
 def _vertex14_():
-    x = float(_3d_.dat14["p1"])/float(_3d_.dat14["p3"])
-    y = float(_3d_.dat14["p2"])/float(_3d_.dat14["p3"])
+    x = float(_3d_.dat14["p1"])/float(_3d_.dat14["p3"]) if float(_3d_.dat14["p3"]) else float(_3d_.dat14["p1"])
+    y = float(_3d_.dat14["p2"])/float(_3d_.dat14["p3"]) if float(_3d_.dat14["p3"]) else float(_3d_.dat14["p2"])
     _vertex14_.pts = {"x1":x,"y1":y,}
 def _vertex15_():
-    x = float(_3d_.dat15["p1"])/float(_3d_.dat15["p3"])
-    y = float(_3d_.dat15["p2"])/float(_3d_.dat15["p3"])
+    x = float(_3d_.dat15["p1"])/float(_3d_.dat15["p3"]) if float(_3d_.dat15["p3"]) else float(_3d_.dat15["p1"])
+    y = float(_3d_.dat15["p2"])/float(_3d_.dat15["p3"]) if float(_3d_.dat15["p3"]) else float(_3d_.dat15["p2"])
     _vertex15_.pts = {"x1":x,"y1":y,}
 def _vertex16_():
-    x = float(_3d_.dat16["p1"])/float(_3d_.dat16["p3"])
-    y = float(_3d_.dat16["p2"])/float(_3d_.dat16["p3"])
+    x = float(_3d_.dat16["p1"])/float(_3d_.dat16["p3"]) if float(_3d_.dat16["p3"]) else float(_3d_.dat16["p1"])
+    y = float(_3d_.dat16["p2"])/float(_3d_.dat16["p3"]) if float(_3d_.dat16["p3"]) else float(_3d_.dat16["p2"])
     _vertex16_.pts = {"x1":x,"y1":y,}
 
 _vertex1_()
@@ -114,8 +114,7 @@ def run():
         "\n","2D point 13:",_vertex13_.pts["x1"],",",_vertex13_.pts["y1"],
         "\n","2D point 14:",_vertex14_.pts["x1"],",",_vertex14_.pts["y1"],
         "\n","2D point 15:",_vertex15_.pts["x1"],",",_vertex15_.pts["y1"],
-        "\n","2D point 16:",_vertex16_.pts["x1"],",",_vertex16_.pts["y1"],
-    )
+        "\n","2D point 16:",_vertex16_.pts["x1"],",",_vertex16_.pts["y1"],)
 def _2d_():         # 4 3D points per line to make it look complicated
     _2d_.dat1 = _vertex1_.pts
     _2d_.dat2 = _vertex2_.pts
